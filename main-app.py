@@ -128,13 +128,13 @@ if uploaded_file is not None:
     build_model(df)
 else:
     st.info('Please upload a CSV dataset or choose from the following sample datasets.')
-    if st.button('Boston Dataset'):
-        dataSel(load_boston)
     if st.button('Iris Dataset'):
         dataSel(load_iris)
-    if st.button('Diabetes Dataset'):
-        dataSel(load_diabetes)
     if st.button('Wine Dataset'):
         dataSel(load_wine)
-
+    if st.button('Boston Dataset'):
+        dataSel(load_boston)
+    if st.button('Diabetes Dataset'):
+        dataSel(load_diabetes)
+    
 
