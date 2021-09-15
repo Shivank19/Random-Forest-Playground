@@ -1,4 +1,5 @@
 # Random-Forest-Playground
+[![Streamlit App](https://share.streamlit.io/shivank19/random-forest-playground/main/main-app.py)]
 
 Web app for exploring Random Forest Regressor model, providing control to change different hyperparameters and explore their effect on the model.
 
