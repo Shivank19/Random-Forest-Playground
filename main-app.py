@@ -72,9 +72,9 @@ def build_model(df):
 #****************************************************
 
 st.write("""
-# The Machine Learning App
+# Random Forest Playgraound
 In this implementation, the **Random Forest** algorithm is used to build a model.
-Play around with the hyperparameters to explore how the algorithm works.
+Play around with the hyperparameters to explore how the algorithm works on different datasets.
 """)
 
 #****************************************************
